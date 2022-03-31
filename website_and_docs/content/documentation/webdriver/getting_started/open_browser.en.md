@@ -373,7 +373,7 @@ safaridriver --enable
 {{< tabpane langEqualsHeader=true >}}
 {{< tab header="Java" github="SeleniumHQ/seleniumhq.github.io/blob/dev/examples/java/src/test/java/dev/selenium/getting_started/OpenBrowserTest.java#L84-L88">}}
   SafariOptions options = new SafariOptions();
-  driver = new SafariDriver(options);
+  WebDriver driver = new SafariDriver(options);
   
   driver.quit();
 {{< /tab >}}
